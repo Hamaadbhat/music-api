@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Vn/6GgQxaEQH1YtQGMNR6pFwFNtHyC25a+XB84tGTLQ=",
+  "Source": "myMusicApi",
+  "BasePath": "_content/myMusicApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

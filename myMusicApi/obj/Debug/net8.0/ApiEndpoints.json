@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "myMusicApi.Controller.MusicController",
+    "Method": "Post",
+    "RelativePath": "api/Music",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "musicDTO",
+        "Type": "myMusicApi.MusicDTOs.MusicDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myMusicApi.Controller.MusicController",
+    "Method": "Put",
+    "RelativePath": "api/Music",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "musicDTO",
+        "Type": "myMusicApi.MusicDTOs.MusicDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myMusicApi.Controller.MusicController",
+    "Method": "Delete",
+    "RelativePath": "api/Music",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myMusicApi.Controller.MusicController",
+    "Method": "List",
+    "RelativePath": "api/Music",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myMusicApi.Controller.MusicController",
+    "Method": "Details",
+    "RelativePath": "api/Music/Details",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

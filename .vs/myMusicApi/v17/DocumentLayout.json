@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HamaadIftikhar\\OneDrive - Eurofins ITWW\\Desktop\\myMusicApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91D071ED-480A-4B51-93B4-7666AC5C88FF}|myMusicApi\\myMusicApi.csproj|c:\\users\\hamaadiftikhar\\onedrive - eurofins itww\\desktop\\mymusicapi\\mymusicapi\\model\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D071ED-480A-4B51-93B4-7666AC5C88FF}|myMusicApi\\myMusicApi.csproj|solutionrelative:mymusicapi\\model\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D071ED-480A-4B51-93B4-7666AC5C88FF}|myMusicApi\\myMusicApi.csproj|c:\\users\\hamaadiftikhar\\onedrive - eurofins itww\\desktop\\mymusicapi\\mymusicapi\\migrations\\20250408035733_fluentapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D071ED-480A-4B51-93B4-7666AC5C88FF}|myMusicApi\\myMusicApi.csproj|solutionrelative:mymusicapi\\migrations\\20250408035733_fluentapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D071ED-480A-4B51-93B4-7666AC5C88FF}|myMusicApi\\myMusicApi.csproj|c:\\users\\hamaadiftikhar\\onedrive - eurofins itww\\desktop\\mymusicapi\\mymusicapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{91D071ED-480A-4B51-93B4-7666AC5C88FF}|myMusicApi\\myMusicApi.csproj|solutionrelative:mymusicapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D071ED-480A-4B51-93B4-7666AC5C88FF}|myMusicApi\\myMusicApi.csproj|c:\\users\\hamaadiftikhar\\onedrive - eurofins itww\\desktop\\mymusicapi\\mymusicapi\\mymusicapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{91D071ED-480A-4B51-93B4-7666AC5C88FF}|myMusicApi\\myMusicApi.csproj|solutionrelative:mymusicapi\\mymusicapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D071ED-480A-4B51-93B4-7666AC5C88FF}|myMusicApi\\myMusicApi.csproj|c:\\users\\hamaadiftikhar\\onedrive - eurofins itww\\desktop\\mymusicapi\\mymusicapi\\controller\\musiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D071ED-480A-4B51-93B4-7666AC5C88FF}|myMusicApi\\myMusicApi.csproj|solutionrelative:mymusicapi\\controller\\musiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D071ED-480A-4B51-93B4-7666AC5C88FF}|myMusicApi\\myMusicApi.csproj|c:\\users\\hamaadiftikhar\\onedrive - eurofins itww\\desktop\\mymusicapi\\mymusicapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D071ED-480A-4B51-93B4-7666AC5C88FF}|myMusicApi\\myMusicApi.csproj|solutionrelative:mymusicapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250408035733_fluentapi.cs",
+              "DocumentMoniker": "C:\\Users\\HamaadIftikhar\\OneDrive - Eurofins ITWW\\Desktop\\myMusicApi\\myMusicApi\\Migrations\\20250408035733_fluentapi.cs",
+              "RelativeDocumentMoniker": "myMusicApi\\Migrations\\20250408035733_fluentapi.cs",
+              "ToolTip": "C:\\Users\\HamaadIftikhar\\OneDrive - Eurofins ITWW\\Desktop\\myMusicApi\\myMusicApi\\Migrations\\20250408035733_fluentapi.cs",
+              "RelativeToolTip": "myMusicApi\\Migrations\\20250408035733_fluentapi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T03:57:33.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HamaadIftikhar\\OneDrive - Eurofins ITWW\\Desktop\\myMusicApi\\myMusicApi\\model\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "myMusicApi\\model\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\HamaadIftikhar\\OneDrive - Eurofins ITWW\\Desktop\\myMusicApi\\myMusicApi\\model\\AppDbContext.cs",
+              "RelativeToolTip": "myMusicApi\\model\\AppDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBYAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T03:50:38.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\HamaadIftikhar\\OneDrive - Eurofins ITWW\\Desktop\\myMusicApi\\myMusicApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "myMusicApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\HamaadIftikhar\\OneDrive - Eurofins ITWW\\Desktop\\myMusicApi\\myMusicApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "myMusicApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-08T03:46:12.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "myMusicApi.csproj",
+              "DocumentMoniker": "C:\\Users\\HamaadIftikhar\\OneDrive - Eurofins ITWW\\Desktop\\myMusicApi\\myMusicApi\\myMusicApi.csproj",
+              "RelativeDocumentMoniker": "myMusicApi\\myMusicApi.csproj",
+              "ToolTip": "C:\\Users\\HamaadIftikhar\\OneDrive - Eurofins ITWW\\Desktop\\myMusicApi\\myMusicApi\\myMusicApi.csproj",
+              "RelativeToolTip": "myMusicApi\\myMusicApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-08T03:45:55.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MusicController.cs",
+              "DocumentMoniker": "C:\\Users\\HamaadIftikhar\\OneDrive - Eurofins ITWW\\Desktop\\myMusicApi\\myMusicApi\\Controller\\MusicController.cs",
+              "RelativeDocumentMoniker": "myMusicApi\\Controller\\MusicController.cs",
+              "ToolTip": "C:\\Users\\HamaadIftikhar\\OneDrive - Eurofins ITWW\\Desktop\\myMusicApi\\myMusicApi\\Controller\\MusicController.cs",
+              "RelativeToolTip": "myMusicApi\\Controller\\MusicController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T14:13:18.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HamaadIftikhar\\OneDrive - Eurofins ITWW\\Desktop\\myMusicApi\\myMusicApi\\Program.cs",
+              "RelativeDocumentMoniker": "myMusicApi\\Program.cs",
+              "ToolTip": "C:\\Users\\HamaadIftikhar\\OneDrive - Eurofins ITWW\\Desktop\\myMusicApi\\myMusicApi\\Program.cs",
+              "RelativeToolTip": "myMusicApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T07:02:02.245Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
