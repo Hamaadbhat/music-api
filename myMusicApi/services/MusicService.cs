@@ -10,6 +10,12 @@ namespace myMusicApi.services
         {
             _context = context;
         }
+
+        /// <summary>
+        /// adds music to database 
+        /// </summary>
+        /// <param name="music">music object to be added </param>
+        /// <returns>music object added</returns>
         public async Task<Music> AddMusic(Music music)
         {
             if(music!=null)
