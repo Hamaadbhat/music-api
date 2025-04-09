@@ -1,11 +1,12 @@
-﻿using Microsoft.Data.SqlClient;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using System.Data;
 
 
 namespace myMusicApi.model
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext<ApplicationUser,ApplicationRole,Guid>
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {

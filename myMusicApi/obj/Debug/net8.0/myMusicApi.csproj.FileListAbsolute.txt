@@ -356,3 +356,9 @@ C:\Users\HamaadIftikhar\OneDrive - Eurofins ITWW\Desktop\myMusicApi\myMusicApi\o
 C:\Users\HamaadIftikhar\OneDrive - Eurofins ITWW\Desktop\myMusicApi\myMusicApi\obj\Debug\net8.0\myMusicApi.pdb
 C:\Users\HamaadIftikhar\OneDrive - Eurofins ITWW\Desktop\myMusicApi\myMusicApi\obj\Debug\net8.0\myMusicApi.genruntimeconfig.cache
 C:\Users\HamaadIftikhar\OneDrive - Eurofins ITWW\Desktop\myMusicApi\myMusicApi\obj\Debug\net8.0\ref\myMusicApi.dll
+C:\Users\HamaadIftikhar\OneDrive - Eurofins ITWW\Desktop\myMusicApi\myMusicApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\HamaadIftikhar\OneDrive - Eurofins ITWW\Desktop\myMusicApi\myMusicApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\HamaadIftikhar\OneDrive - Eurofins ITWW\Desktop\myMusicApi\myMusicApi\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\HamaadIftikhar\OneDrive - Eurofins ITWW\Desktop\myMusicApi\myMusicApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\HamaadIftikhar\OneDrive - Eurofins ITWW\Desktop\myMusicApi\myMusicApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\HamaadIftikhar\OneDrive - Eurofins ITWW\Desktop\myMusicApi\myMusicApi\obj\Debug\net8.0\myMusicApi.sourcelink.json
