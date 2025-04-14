@@ -382,4 +382,3 @@ C:\Users\HamaadIftikhar\OneDrive - Eurofins ITWW\Desktop\myMusicApi\myMusicApi\b
 C:\Users\HamaadIftikhar\OneDrive - Eurofins ITWW\Desktop\myMusicApi\myMusicApi\bin\Debug\net8.0\tr-TR\Hangfire.Core.resources.dll
 C:\Users\HamaadIftikhar\OneDrive - Eurofins ITWW\Desktop\myMusicApi\myMusicApi\bin\Debug\net8.0\zh-TW\Hangfire.Core.resources.dll
 C:\Users\HamaadIftikhar\OneDrive - Eurofins ITWW\Desktop\myMusicApi\myMusicApi\bin\Debug\net8.0\zh\Hangfire.Core.resources.dll
-C:\Users\HamaadIftikhar\OneDrive - Eurofins ITWW\Desktop\myMusicApi\myMusicApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
