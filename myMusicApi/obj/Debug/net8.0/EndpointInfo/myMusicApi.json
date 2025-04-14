@@ -14,6 +14,7 @@
           {
             "name": "firstName",
             "in": "query",
+            "required": true,
             "schema": {
               "type": "string"
             }
@@ -21,6 +22,7 @@
           {
             "name": "lastName",
             "in": "query",
+            "required": true,
             "schema": {
               "type": "string"
             }
@@ -28,6 +30,7 @@
           {
             "name": "email",
             "in": "query",
+            "required": true,
             "schema": {
               "type": "string"
             }
@@ -35,6 +38,7 @@
           {
             "name": "phoneNumber",
             "in": "query",
+            "required": true,
             "schema": {
               "type": "string"
             }
@@ -42,6 +46,7 @@
           {
             "name": "passwordHash",
             "in": "query",
+            "required": true,
             "schema": {
               "type": "string"
             }
@@ -49,11 +54,47 @@
           {
             "name": "userName",
             "in": "query",
+            "required": true,
             "schema": {
               "type": "string"
             }
           }
         ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/fileUpload": {
+      "post": {
+        "tags": [
+          "fileUpload"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "files": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "files": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"

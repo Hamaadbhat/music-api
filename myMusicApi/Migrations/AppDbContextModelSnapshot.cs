@@ -258,6 +258,23 @@ namespace myMusicApi.Migrations
                         });
                 });
 
+            modelBuilder.Entity("myMusicApi.model.eu_crop_dict", b =>
+                {
+                    b.Property<string>("EU_CROP_CODE")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("EU_CROP_NAME")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LANGUAGE")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.ToTable("eu_Crop_Dicts");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<System.Guid>", b =>
                 {
                     b.HasOne("myMusicApi.model.ApplicationRole", null)

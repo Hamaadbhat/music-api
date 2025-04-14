@@ -12,6 +12,9 @@ namespace myMusicApi.model
         {
         }
         public DbSet<Music>Musics { get; set; } = null!;
+        public DbSet<eu_crop_dict> eu_Crop_Dicts { get; set; } = null!;
+
+        [Obsolete]
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

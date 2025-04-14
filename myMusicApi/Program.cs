@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using Hangfire;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -31,6 +32,10 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<IMusicService, MusicService>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddScoped<IFileUploadService, FileUploadService>();
+
+builder.Services.AddHangfire(x => x.UseSqlServerStorage(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddHangfireServer();
 
 
 builder.Services.AddIdentity<ApplicationUser, ApplicationRole>(options =>
@@ -41,9 +46,10 @@ builder.Services.AddIdentity<ApplicationUser, ApplicationRole>(options =>
   .AddDefaultTokenProviders()
   .AddUserStore<UserStore<ApplicationUser, ApplicationRole, AppDbContext, Guid>>()
   .AddRoleStore<RoleStore<ApplicationRole, AppDbContext, Guid>>();
+
 var app = builder.Build();
 
-
+app.UseHangfireDashboard();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
