@@ -100,6 +100,16 @@
             "description": "OK"
           }
         }
+      },
+      "get": {
+        "tags": [
+          "fileUpload"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       }
     },
     "/api/Music": {

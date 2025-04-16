@@ -32,7 +32,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<IMusicService, MusicService>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-builder.Services.AddScoped<IFileUploadService, FileUploadService>();
+builder.Services.AddScoped<IFileService, FileService>();
 
 builder.Services.AddHangfire(x => x.UseSqlServerStorage(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddHangfireServer();
@@ -48,6 +48,9 @@ builder.Services.AddIdentity<ApplicationUser, ApplicationRole>(options =>
   .AddRoleStore<RoleStore<ApplicationRole, AppDbContext, Guid>>();
 
 var app = builder.Build();
+
+HangfireJobs.RegisterRecurringJobs(app.Services);
+
 
 app.UseHangfireDashboard();
 // Configure the HTTP request pipeline.

@@ -57,6 +57,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "myMusicApi.Controller.fileUploadController",
+    "Method": "GeneratePdf",
+    "RelativePath": "api/fileUpload",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "myMusicApi.Controller.MusicController",
     "Method": "Post",
     "RelativePath": "api/Music",
